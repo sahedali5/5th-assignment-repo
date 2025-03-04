@@ -19,11 +19,40 @@
                     <img src="assets/logo.png" alt="" srcset="" />
                     <p class="text-xl">Dev<span class="text-sky-800 font-medium">Board</span></p>
                 </div>
-                <button class="bg-green-950 p-2 rounded-md" type="button">BackBoard</button>
+                <button id="go-back-btn" class="bg-green-950 p-2 rounded-md" type="button">Back to Dec</button>
             </nav>
         </header>
-        <main>
-            <p class="text-center text-xl font-bold">Blogs</p>
+        <main class="container mx-auto">
+            <p class="text-center text-xl font-bold mb-7">Blogs</p>
+            <div class="bg-gray-600 space-y-2 p-2 rounded-md">
+                <p>Question-1: What is the different ways to select an element in the DOM?</p>
+                <hr class="border-dashed" />
+                <p>
+                    Ans: There are many ways to select an element in the DOM. <br />
+                    For example:- 1. getElementById, 2. getElementByClassName, 3.querySelector, 4. querySelectorAll etc .
+                </p>
+            </div>
+            <div class="bg-gray-600 space-y-2 p-2 rounded-md mt-4">
+                <p>Question-2:What is the difference between innerHTML, innerText, textContent?</p>
+                <hr class="border-dashed" />
+                <p>Ans:When you need to dynamically add or modify, then use innerHTML. innerText is used for visible text and textContent is used when needing all text, including hidden text .</p>
+            </div>
+            <div class="bg-gray-600 space-y-2 p-2 rounded-md mt-4">
+                <p>Question-3:What is event delegation in the DOM?</p>
+                <hr class="border-dashed" />
+                <p>Ans:Event Delegation is a technique where a single event listener is added to a parent element to handle events on multiple child elements, even if they are added dynamically.</p>
+            </div>
+            <div class="bg-gray-600 space-y-2 p-2 rounded-md mt-4">
+                <p>Question-4:What is event bubbling in the DOM?</p>
+                <hr class="border-dashed" />
+                <p>Ans:Event Bubbling is a phase in event propagation where an event starts from the target element and bubbles up to its parent elements.</p>
+            </div>
+            <div class="bg-gray-600 space-y-2 p-2 rounded-md mt-4">
+                <p>Question-5:How do you create, add, and remove elements using JavaScript?</p>
+                <hr class="border-dashed" />
+                <p>Ans:To create a new element, use the document.createElement("tag") method.After creating an element, I can add it parent.appendChild(element).To remove element using element.remove() method.</p>
+            </div>
         </main>
+        <script src="javascript/one.js"></script>
     </body>
 </html>
