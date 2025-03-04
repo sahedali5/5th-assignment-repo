@@ -1,0 +1,43 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+/* .nav,
+.main,
+.aside,
+.container {
+    background-color: aquamarine;
+    border: 2px solid orange;
+} */
+/* .nav {
+    grid-area: nav;
+}
+.main {
+    grid-area: main;
+}
+.aside {
+    grid-area: aside;
+}
+.container {
+    display: grid;
+    grid-template-areas:
+        " nav  nav   nav    nav      "
+        "main  main  main   aside    "
+        "main  main  main   aside    ";
+} */
+.nav {
+    background-color: gray;
+}
+
+/* .full-column {
+    grid-column: 4;
+    grid-row: 1 / span 3;
+} */
+.main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.board-card {
+    background: linear-gradient(125deg, #4c67ffc9, rgba(255, 155, 163, 0.79));
+    padding: 4px;
+    border-radius: 12px;
+}
